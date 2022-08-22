@@ -1,0 +1,53 @@
+//Linux Commands
+Linux Commands:-
+
+
+pwd         Present working directors
+
+mkdir      "naem"   make new folder
+
+cd            Change DIrectory
+
+ls            (LIst all files)
+
+ls -R        (Subdirectories)
+
+ls -a         (hidden files)
+
+cat>filename           (Creates new file & add content simultaneously in one go)
+
+cat filename            (Shows contents of filename)
+
+Ctrl+D                        (Exits when inside a file.)
+
+cat file1 file2>file3           (concatenates file1+file2 into file3)
+
+cat>>filename                       ( Points cursor to the end of existing file )
+
+act filename|tr a-z A-Z            (converts filename's contents to uppercase)
+
+act filename|tr A-Z a-z             (converts filename's contents to lowercase)
+rm file3                                         (to remove file)
+
+touch filename                           (creates new blank file)
+
+head -n 3 filename              (shows first 3 lines fo filename)
+
+tail  -n 3 filename                (shows last 3 lines fo filename)
+
+wc  filename             (Lines , words, Letters and FIlename)
+
+wc -l filename                       (tells number of lines in filename)
+wc -L filename                       (Length of longest line in filename)
+
+wc -w filename                 (tells number of words in filename)
+
+cal                                      (Prints Date if ncal library installed)
+
+cal 1 2022                       (Prints  Calendar of January 2022)
+
+diff file1 file2                (Prints Difference of file1 file2)
+
+rmdir                                (delete empty directory)
+
+rmdir -r
