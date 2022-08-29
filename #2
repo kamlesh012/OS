@@ -1,0 +1,10 @@
+//
+check gcc version     gcc-v
+gedit 
+compile & run in terminal
+4 programs:- hello world
+             smallest of three
+             factorial
+             fibonacci
+fork(sysetm call)->create chlid process,2^n calls
+three examples if run one times,two time,three times. what will happen?
