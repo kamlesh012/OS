@@ -1,0 +1,11 @@
+
+//wap to print pid of a process & child process.
+#include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
+int main(){
+    int a=fork();
+    printf("%d\n",a);
+    printf("PID is:%d\n",getpid());
+    
+}
