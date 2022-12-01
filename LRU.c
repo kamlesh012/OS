@@ -55,6 +55,7 @@ int main()
 					if (x == j)continue;
 					recent[x]--;
 				}
+				recent[j]=0;
 				ok = true;
 				break;
 			}
@@ -70,6 +71,7 @@ int main()
 			}
 			pagefaults++;
 			slot[index] = currentp;
+			recent[index]=0;
 			printf("Fault: CurrentP %d Slot %d\n", currentp, index);
 
 			for (int j = 0; j < frames; j++) {
